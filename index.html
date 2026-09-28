@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fbfaf8" />
+    <meta name="description" content="flower onebe — 花があるだけで、今日はすこし、いい日。花と暮らす楽しさを届けるフラワーショップのデモサイト。" />
+    <title>flower onebe | 花があるだけで、今日はすこし、いい日。</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=DM+Sans:wght@400;500;600&family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+JP:wght@300;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="module" src="/main.js"></script>
+  </head>
+  <body>
+    <div class="announcement">FLOWER ONEBE &nbsp; · &nbsp; A LITTLE FLOWER, A LITTLE JOY</div>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="flower onebe トップへ">flower <span>onebe</span><small>flowers for everyday moments</small></a>
+      <nav class="desktop-nav" aria-label="メインナビゲーション">
+        <a href="#about">About</a><a href="#flowers">Flowers</a><a href="#journal">Journal</a><a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-button" type="button" aria-label="メニューを開く" aria-controls="menu-panel" aria-expanded="false">
+        <span></span><span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <div class="menu-panel" id="menu-panel" hidden>
+      <nav aria-label="モバイルナビゲーション">
+        <a href="#top">Top</a><a href="#about">About</a><a href="#flowers">Flowers</a><a href="#journal">Journal</a><a href="#contact">Contact</a>
+      </nav>
+      <p>flower onebe · demo website</p>
+    </div>
+
+    <main>
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="flower-stage" aria-hidden="true">
+          <img class="flower flower-a" src="/assets/single-cosmos.png" alt="" />
+          <img class="flower flower-b" src="/assets/single-cosmos.png" alt="" />
+          <img class="flower flower-c" src="/assets/single-cosmos.png" alt="" />
+          <img class="flower flower-d" src="/assets/single-cosmos.png" alt="" />
+          <img class="flower flower-e" src="/assets/single-cosmos.png" alt="" />
+        </div>
+        <div class="hero-copy">
+          <p class="hero-overline">a little flower makes everything brighter.</p>
+          <h1 id="hero-title">花があるだけで、<br /><em>今日はすこし、いい日。</em></h1>
+          <p class="hero-subtitle">思わず足どりが軽くなるような、<br />やさしい花の時間を。</p>
+          <a class="hero-cta" href="#flowers">Explore flowers <span aria-hidden="true">↗</span></a>
+        </div>
+        <a class="side-tab" href="#flowers">Take a look at our flowers <span aria-hidden="true">↗</span></a>
+        <a class="scroll-cue" href="#about">Scroll <span aria-hidden="true">↓</span></a>
+        <button class="motion-toggle" type="button" aria-label="花のアニメーションを停止" aria-pressed="false">Pause motion <span aria-hidden="true">Ⅱ</span></button>
+      </section>
+
+      <div class="checker checker-sage" aria-hidden="true"></div>
+
+      <section class="about section-shell" id="about" aria-labelledby="about-title">
+        <p class="section-kicker">01 &nbsp; / &nbsp; About us</p>
+        <div class="about-inner">
+          <div class="about-flower" aria-hidden="true"><img src="/assets/single-cosmos.png" alt="" /><span class="flower-ring"></span></div>
+          <div class="about-copy">
+            <p class="hand-note">flowers for everyday moments</p>
+            <h2 id="about-title">何でもない日を、<br />花のある日に。</h2>
+            <p>お気に入りの歌を口ずさむように。<br />窓から入る光を楽しむように。<br />花を選ぶ時間も、飾る時間も、<br />心がふわりと弾むひとときに。</p>
+            <a class="scribble-link" href="#flowers">Meet the flowers <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <span class="doodle doodle-one" aria-hidden="true">✳</span><span class="doodle doodle-two" aria-hidden="true">✧</span>
+      </section>
+
+      <section class="flowers-section section-shell" id="flowers" aria-labelledby="flowers-title">
+        <div class="section-heading">
+          <div><p class="section-kicker">02 &nbsp; / &nbsp; The flowers</p><h2 id="flowers-title">Flowers <span>& little things</span></h2><svg class="wavy" viewBox="0 0 220 16" aria-hidden="true"><path d="M0 8c14-12 23 12 37 0s23 12 37 0 23 12 37 0 23 12 37 0 23 12 37 0 23 12 37 0"/></svg></div>
+          <p>ひと束から始まる、ちいさな幸せ。<br />気分に合わせて、自由に選んで。</p>
+        </div>
+        <div class="flower-cards">
+          <article class="flower-card"><div class="card-image card-one" role="img" aria-label="淡いピンクの花束"></div><div class="card-meta">01 / FOR SOMEONE</div><h3>Bouquet</h3><p>気持ちを束ねて贈る花束</p></article>
+          <article class="flower-card"><div class="card-image card-two" role="img" aria-label="花瓶に飾った季節の花"></div><div class="card-meta">02 / FOR YOUR SPACE</div><h3>Arrangement</h3><p>暮らしに飾る季節の花</p></article>
+          <article class="flower-card"><div class="card-image card-three" role="img" aria-label="花を編んで作るリース"></div><div class="card-meta">03 / FOR YOURSELF</div><h3>Flower time</h3><p>花と過ごすやさしい時間</p></article>
+        </div>
+        <a class="outline-cta" href="#contact">Let's talk flowers <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <div class="checker checker-pink" aria-hidden="true"></div>
+
+      <section class="journal-section section-shell" id="journal" aria-labelledby="journal-title">
+        <p class="section-kicker">03 &nbsp; / &nbsp; Notes</p>
+        <div class="journal-layout"><div><h2 id="journal-title">The little<br /><i>flower journal.</i></h2><p>花のこと、暮らしのこと。<br />ここから少しずつ。</p></div><div class="journal-card"><span>DEMO NOTE</span><h3>花と過ごす時間を、<br />あなたの毎日に。</h3><p>flower onebe のデモサイトへようこそ。</p><a href="#contact">Read more <span aria-hidden="true">↗</span></a></div></div>
+        <span class="journal-stroke" aria-hidden="true"></span>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-art" aria-hidden="true"><img src="/assets/single-cosmos.png" alt="" /></div>
+        <div class="contact-content"><p class="hand-note">see you among the flowers</p><h2 id="contact-title">花のある場所で、<br />また会いましょう。</h2><p>flower onebe<br />This is a design demo.</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span class="footer-mark">flower onebe</span><span>ABOUT &nbsp; / &nbsp; FLOWERS &nbsp; / &nbsp; JOURNAL</span><span>© flower onebe · demo</span></footer>
+  </body>
+</html>
